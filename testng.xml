@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <test name="GoogleTests.java">
+        <classes>
+            <class name="org.springboot.Selenium.google.GoogleTests"/>
+        </classes>
+    </test>
+    <test name="GoogleTests2.java">
+        <classes>
+            <class name="org.springboot.Selenium.google.GoogleTests2"/>
+        </classes>
+    </test>
+</suite>
